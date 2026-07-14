@@ -1,4 +1,4 @@
-# Publish
+# Tailwind Clamp
 
 ## Technologies
 
