@@ -1,0 +1,17 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": ["eslint", "oxc", "import"],
+    "ignorePatterns": [
+        "**/.cursor/**",
+        "**/dist/**",
+        "**/node_modules/**"
+    ],
+    "categories": {
+        "correctness": "warn",
+        "suspicious": "warn"
+    },
+    "rules": {
+        "eslint/no-console": "warn",
+        "import/no-duplicates": "warn"
+    }
+}

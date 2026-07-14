@@ -1,0 +1,27 @@
+{
+  "name": "tailwind-clamp",
+  "version": "1.0.0",
+  "description": "clamp-based plugin for tailwindcss responsive props",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "oxlint src/**/*.ts",
+    "format": "oxfmt src/**/*.ts"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.1.1",
+    "jest": "^30.4.2",
+    "oxfmt": "^0.59.0",
+    "oxlint": "^1.74.0",
+    "ts-jest": "^29.4.11",
+    "typescript": "^5.9.3"
+  }
+}

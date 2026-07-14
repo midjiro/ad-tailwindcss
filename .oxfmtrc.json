@@ -1,0 +1,36 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": true,
+    "semi": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "printWidth": 80,
+    "arrowParens": "always",
+    "ignorePatterns": [
+        "**/.cursor/**",
+        "**/.vscode/**",
+        "**/dist/**",
+        "**/node_modules/**",
+        "**/*.md"
+    ],
+    "sortImports": {
+        "customGroups": [
+            {
+                "groupName": "tailwindcss",
+                "elementNamePattern": ["tailwindcss", "tailwindcss/**"]
+            }
+        ],
+        "groups": [
+            "tailwindcss",
+            "type-import",
+            ["value-builtin", "value-external"],
+            "type-internal",
+            "value-internal",
+            ["type-parent", "type-sibling", "type-index"],
+            ["value-parent", "value-sibling", "value-index"],
+            "unknown"
+        ]
+    }
+}
