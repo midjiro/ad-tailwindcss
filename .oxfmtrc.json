@@ -13,7 +13,8 @@
         "**/.vscode/**",
         "**/dist/**",
         "**/node_modules/**",
-        "**/*.md"
+        "**/*.md",
+        "*.json"
     ],
     "sortImports": {
         "customGroups": [
