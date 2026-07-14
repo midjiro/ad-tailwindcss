@@ -9,8 +9,10 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "oxlint src/**/*.ts",
-    "format": "oxfmt src/**/*.ts"
+    "lint:check": "oxlint --quiet",
+    "lint": "oxlint",
+    "format:check": "oxfmt --check",
+    "format": "oxfmt"
   },
   "dependencies": {
     "tailwindcss": "^4.3.2"
