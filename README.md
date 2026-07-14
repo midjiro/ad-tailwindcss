@@ -11,3 +11,17 @@
 ## Description
 
 Small tailwindcss utility that provides clamps for default properties like font size, width, height and etc.
+
+## Usage
+
+```JSX
+   <section
+        className={cn(
+            'ad-py-[64-100] ad-px-[16-120] flex flex-wrap',
+            className,
+        )}
+        {...props}
+    >
+        ...
+    </section>
+```
