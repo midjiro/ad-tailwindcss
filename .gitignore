@@ -1,2 +1,4 @@
 node_modules
 dist
+src/__tests__/fixtures/template-*.html
+src/__tests__/fixtures/tailwind-*.css
