@@ -6,7 +6,6 @@ import {
     cssHasAdUtilityRule,
 } from './helpers/compileTailwind';
 
-
 describe('TailwindClamp plugin integration', () => {
     describe('existing properties', () => {
         it.each(Object.keys(PROPERTIES))(
